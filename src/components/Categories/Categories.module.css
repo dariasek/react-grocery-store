@@ -1,0 +1,15 @@
+.categories{
+    width: 1000px;
+    margin: 20px auto 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 220px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
