@@ -106,7 +106,7 @@ class App extends Component {
           searchInput={this.state.searchInput}
           cart={this.state.cart}
         />
-        <Route exact path="/" render={()=><Home /> } />
+        <Route path="/react-grocery-store" render={()=><Home /> } />
         <Route
           path="/search"
           render={() => (
